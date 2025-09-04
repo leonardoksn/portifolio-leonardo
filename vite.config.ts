@@ -6,7 +6,6 @@ import { defineConfig } from "vite";
 
 export default defineConfig({
 	plugins: [tailwindcss(), tanstackRouter({}), react()],
-	base: "/portifolio-leonardo",
 	resolve: {
 		alias: {
 			"@": path.resolve(__dirname, "./src"),
